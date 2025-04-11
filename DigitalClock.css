@@ -1,0 +1,40 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    width: 100vw;
+    height: 100vw;
+    background-color: lightgray;
+    overflow: hidden;
+}
+#digital_clock_container{
+    width: 30vw;
+    height: 35vh;
+    background-color: transparent;
+    border-radius: 3vw;
+    position: absolute;
+    top: 32.5vh;
+    left: 35vw;
+    backdrop-filter: blur(5vw);
+}
+.headings{
+    text-align: center;
+    position: relative;
+    top: 3.5vh;
+}
+#day_heading{
+    color: darkblue;
+    font-size: 5vw;
+}
+.date_time{
+    color: gray;
+    font-size: 3vw;
+}
+#seconds_heading{
+    color: cadetblue;
+    font-size: 60vw;
+    margin-top: -25vh;
+    text-align: center;
+    text-shadow: 0.3vw 0.3vw 0.5vw black;
+}
